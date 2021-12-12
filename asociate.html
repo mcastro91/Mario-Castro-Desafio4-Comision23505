@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Asociate</title>
+</head>
+
+<div id="grilla-asociate">
+    <body class="body-asociate">
+        <header>
+            <div class="icono-header"> <a href="index.html"><img src="asset/RiverIcono.jpg" alt="river-icono"></a></div>
+            <nav>
+                <a href="index.html">Nosotros</a>
+                <a href="galeria.html">Galeria</a>
+                <a href="ubicacion.html">Ubicacion</a>
+                <a href="faq.html">FAQ</a>
+                <a href="asociate.html">Asociate</a>
+            </nav>
+        </header>
+
+        <div class="titulo-asociate">
+            <h1>
+                Asociate
+            </h1>
+        </div>
+
+        <form class="formulario">
+            <fieldset class="externo">
+                <legend class="leyenda"> Forma parte de la familia riverplatense </legend>
+                <fieldset class="interno">
+                    <legend class="leyenda-dos"> Datos Personales </legend>
+                    <div>
+                        <label for="nombre_apellido"> Nombre: </label>
+                        <input class="rectangulo" type="text" name="nombre_apellido" placeholder="Inserte su nombre">
+                    </div>
+                    <div>
+                        <label for="nombre_apellido"> Apellido: </label>
+                        <input class="rectangulo" type="text" name="nombre_apellido" placeholder="Inserte su apellido">
+                    </div>
+                    <div>
+                        <label for="Documento"> Tipo Documento: </label>
+                        <select class="rectangulo" name="Documento"> Documento
+                            <option value="Seleccione Tipo Documento"> Seleccione Tipo Documento </option>
+                            <option value="DNI"> DNI </option>
+                            <option value="Libreta Enrolamiento"> Libreta Enrolamiento </option>
+                            <option value="Libreta Civica"> Libreta Civica </option>
+                            <option value="Pasaporte"> Pasaporte </option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Numero Documento">Numero Documento:</label>
+                        <input class="rectangulo" type="text" name="numero_documento" placeholder="Inserte su numero de documento">
+                    </div>
+                    <label for="Sexo">Sexo (Segun figura en el documento)</label>
+                    <div> 
+                        <input type="radio" name="sexo" value="Hombre">
+                        Hombre
+                    </div>
+                    <div> 
+                        <input type="radio" name="sexo" value="Mujer">
+                        Mujer
+                    </div>
+                    <div> 
+                        <input type="radio" name="sexo" value="X">
+                        X
+                    </div>
+                </fieldset>
+                <fieldset class="interno">
+                    <legend class="leyenda-dos">Direccion</legend>
+                    <div>
+                        <label for="direccion"> Calle: </label>
+                        <input class="rectangulo" type="text" name="calle" placeholder="Calle">
+                        <label for="altura"> Altura: </label>
+                        <input class="rectangulo" type="text" name="altura" placeholder="Altura">
+                    </div>
+                    <div>
+                        <label for="piso"> Piso: </label>
+                        <input class="rectangulo" type="text" name="piso" placeholder="Piso">
+                        <label for="departamento"> Departamento: </label>
+                        <input class="rectangulo" type="text" name="departamento" placeholder="Departamento">
+                    </div>
+                    <div>
+                        <label for="provincia"> Provincia: </label>
+                        <input class="rectangulo" type="text" name="provincia" placeholder="Provincia">
+                        <label for="localidad"> Localidad: </label>
+                        <input class="rectangulo" type="text" name="localidad" placeholder="Localidad">
+                    </div>
+                    <div>
+                        <label for="barrio"> Barrio: </label>
+                        <input class="rectangulo" type="text" name="barrio" placeholder="Barrio">
+                        <label for="CP"> CP: </label>
+                        <input class="rectangulo" type="text" name="CP" placeholder="1111">
+                    </div>
+                </fieldset>
+                <div class="terminos-condiciones-uno">
+                    <input type="checkbox" name="acepta" value="1">
+                    <a class="terminos-condiciones-dos" href="#">Acepto los terminos y condiciones</a>
+                </div>
+                <div class="div-botones">
+                    <input class="botones" type="submit" value="Enviar Formulario">
+                    <input class="botones" type="reset" value="Limpiar Formulario">
+                    <input class="botones" type="button" value="Cancelar">
+                </div>
+            </fieldset>
+        </form>
+
+        <footer>
+            <div>
+                <ul class="footer-lista">
+                    <li> <a class="footer-nav" href="index.html"> Nosotros</a></li>
+                    <li> <a class="footer-nav" href="galeria.html"> Galeria</a></li>
+                    <li> <a class="footer-nav" href="ubicacion.html"> Ubicacion</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="footer-lista-dos">
+                    <li> <a class="footer-nav" href="faq.html"> FAQ</a></li>
+                    <li> <a class="footer-nav" href="asociate.html"> Asociate</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="footer-lista-redes">
+                    <li class="redes"> <a href="https://twitter.com/?lang=es"><img src="asset/tw.jpg" alt="twitter-river"></a></li>
+                    <li class="redes"> <a href="https://www.facebook.com/"><img src="asset/fb.jpg" facebook-river></a></li>
+                    <li class="redes"> <a href="https://www.instagram.com/?hl=es"><img src="asset/ig.jpg" alt="instagram-river"></a></li>
+                    <li class="redes"> <a href="https://www.tiktok.com/es/"><img src="asset/tiktok.jpg" alt="icono-tiktok"></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
